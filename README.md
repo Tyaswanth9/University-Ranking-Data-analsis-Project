@@ -70,7 +70,8 @@ To analyze NIRF data and build dashboards that help understand:
 - Added slicers for dynamic filtering  
 
 ###  Excel Dashboard :  
-`![Excel Dashboard](https://your-image-link.com/excel-dashboard.png)`
+![Excel Dashboard]([https://your-image-link.com/excel-dashboard.png](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/dashboard_e.png
+)
 
 ---
 
