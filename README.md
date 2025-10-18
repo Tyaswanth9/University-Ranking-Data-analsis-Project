@@ -48,8 +48,9 @@ To analyze NIRF data and build dashboards that help understand:
 - Connected the three files using `institute_id`  
 - Built a data model in Excel, Power BI, and Tableau
 
-###  Data Model Diagram  
-`![Data Model](https://your-image-link.com/data-model.png)`
+###  Data Model Image : 
+![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
+
 
 ---
 
@@ -69,11 +70,10 @@ To analyze NIRF data and build dashboards that help understand:
 - Created KPIs for performance tracking  
 - Added slicers for dynamic filtering  
 
-###  Excel Dashboard :  
-![Excel Dashboard]([https://your-image-link.com/excel-dashboard.png](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/dashboard_e.png
-)
+###  Excel Dashboard Image :  
+![dashboard](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/dashboard_e.png)
 
----
+
 
 ##  What I Did :
 
@@ -83,7 +83,7 @@ To analyze NIRF data and build dashboards that help understand:
 - Turned tables into meaningful charts  
 - Designed an interactive dashboard using slicers  
 
----
+
 
 ##  What I Learned :
 
@@ -101,10 +101,10 @@ To analyze NIRF data and build dashboards that help understand:
 - Visual KPIs and charts  
 - Enhanced visualization effects  
 
-###  Power BI Dashboard :  
-`![Power BI Dashboard](https://your-image-link.com/powerbi-dashboard.png)`
+###  Power BI Dashboard Image:  
+![dashboard](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/dashboard_p.png)
 
----
+
 
 ##  What I Did :
 
@@ -114,7 +114,7 @@ To analyze NIRF data and build dashboards that help understand:
 - Used DAX for KPIs and calculations  
 - Created visuals for business insights  
 
----
+
 
 ##  What I Learned :
 
@@ -133,9 +133,9 @@ To analyze NIRF data and build dashboards that help understand:
 - Designed clean and dynamic dashboards  
 
 ###  Tableau Dashboard :  
-`![Tableau Dashboard](https://your-image-link.com/tableau-dashboard.png)`
+![dashboard](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/dashboard_t.png)
 
----
+
 
 ##  What I Did :
 
@@ -144,7 +144,7 @@ To analyze NIRF data and build dashboards that help understand:
 - Created calculated fields  
 - Designed visuals for key insights  
 
----
+
 
 ##  What I Learned :
 
@@ -157,7 +157,7 @@ To analyze NIRF data and build dashboards that help understand:
 
 ##  SQL :
 
-- 1.  View Creation
+**1.  View Creation**
 
 
 -  CREATE VIEW university_ranking AS
@@ -174,9 +174,9 @@ LEFT JOIN institute_location
 LEFT JOIN institute_ranking
     ON institute_details.institute_id = institute_ranking.institute_id;
 
-![View Image](https://your-image-link.com/view-image.png)
+![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
 
-- 2.  kpi tracking
+**2.  kpi tracking**
 
 -  SELECT 
     COUNT(institute_id) AS "Total number of institutions",
@@ -184,19 +184,19 @@ LEFT JOIN institute_ranking
     CONCAT(ROUND(AVG(rank_), 2), "%") AS "Overall rank percentage"
 FROM university_ranking;
 
-![KPI Image](https://your-image-link.com/kpi-image.png)
+![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
 
 
-- 3.  Top 5 Ranked Institutions
+**3.  Top 5 Ranked Institutions**
 
 -  SELECT rank_, name 
 FROM university_ranking
 WHERE rank_ < 6;
 
-![Top 5](https://your-image-link.com/c1-image.png)
+![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
 
 
-- 4.  State-wise Average Score
+**4.  State-wise Average Score**
 
 -  SELECT 
     state, 
@@ -205,10 +205,10 @@ FROM university_ranking
 GROUP BY state
 ORDER BY state ASC;
 
-![State Avg](https://your-image-link.com/c2-image.png)
+![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
 
 
--5.  Grade-wise Institutions
+**5.  Grade-wise Institutions**
 
 -  SELECT 
     CASE
@@ -223,9 +223,9 @@ ORDER BY state ASC;
 FROM university_ranking
 GROUP BY grade;
 
-![Grade-wise](https://your-image-link.com/c3-image.png)
+![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
 
--6.  State-wise Institution Count
+**6.  State-wise Institution Count**
 
 -  SELECT 
     state, 
@@ -235,10 +235,10 @@ GROUP BY state
 ORDER BY state ASC; 
 
 
-![State Count](https://your-image-link.com/c4-image.png)
+![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
 
 
----
+
 
 ## 📘 What I Learned :
 
@@ -247,4 +247,8 @@ ORDER BY state ASC;
 -  Gained better understanding of joins and aggregations 
 
 ---
+
+
+**Note: This code is provided for reference only - do not for use , copy , modify , or distributions, or reproduction.**
+
 
