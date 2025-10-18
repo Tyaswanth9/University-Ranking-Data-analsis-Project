@@ -49,7 +49,7 @@ To analyze NIRF data and build dashboards that help understand:
 - Built a data model in Excel, Power BI, and Tableau
 
 ###  Data Model Image : 
-![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
+![dashboard](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/dm.png)
 
 
 ---
@@ -174,7 +174,7 @@ LEFT JOIN institute_location
 LEFT JOIN institute_ranking
     ON institute_details.institute_id = institute_ranking.institute_id;
 
-![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
+![dashboard](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/view_image.png)
 
 **2.  kpi tracking**
 
@@ -184,7 +184,7 @@ LEFT JOIN institute_ranking
     CONCAT(ROUND(AVG(rank_), 2), "%") AS "Overall rank percentage"
 FROM university_ranking;
 
-![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
+![dashboard](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/kpi_image.png)
 
 
 **3.  Top 5 Ranked Institutions**
@@ -193,7 +193,7 @@ FROM university_ranking;
 FROM university_ranking
 WHERE rank_ < 6;
 
-![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
+![dashboard](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/c1_image.png)
 
 
 **4.  State-wise Average Score**
@@ -205,7 +205,7 @@ FROM university_ranking
 GROUP BY state
 ORDER BY state ASC;
 
-![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
+![dashboard](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/c2.png)
 
 
 **5.  Grade-wise Institutions**
@@ -223,7 +223,7 @@ ORDER BY state ASC;
 FROM university_ranking
 GROUP BY grade;
 
-![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
+![dashboard](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/c3.png)
 
 **6.  State-wise Institution Count**
 
@@ -235,7 +235,7 @@ GROUP BY state
 ORDER BY state ASC; 
 
 
-![dashboard](https://github.com/Tyaswanth9/Crowd-funding-project/blob/myself/dashboardT.png)
+![dashboard](https://github.com/Tyaswanth9/University-Ranking-Data-analsis-Project/blob/myself/c4.png)
 
 
 
